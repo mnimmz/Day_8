@@ -1,0 +1,26 @@
+package projects;
+
+import java.util.Scanner;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+	
+	public void add(){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int add1 = input.nextInt();
+		
+		System.out.println("Enter a second number:");
+		int add2 = input.nextInt();
+		
+		System.out.print("Results:");
+		System.out.print(add1 + add2);
+	}
+
+}

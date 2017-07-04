@@ -1,0 +1,23 @@
+package projects;
+
+import java.util.Scanner;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+	
+	public void add(){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int addition1 = input.nextInt();
+		
+		System.out.println("Enter a second number:");
+		int addition2 = input.nextInt();
+	}
+
+}
